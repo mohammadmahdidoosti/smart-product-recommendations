@@ -1,0 +1,1014 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Product Recommendations for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smart-product-recommendations\n"
+"POT-Creation-Date: 2026-10-23T13:40:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Domain: smart-product-recommendations\n"
+"X-Generator: WP-CLI 2.12.0\n"
+
+#. Plugin Name of the plugin
+#: smart-product-recommendations.php
+msgid "Smart Product Recommendations for WooCommerce"
+msgstr "پیشنهاد هوشمند محصولات برای ووکامرس"
+
+#. Description of the plugin
+#: smart-product-recommendations.php
+msgid ""
+"Fast, scalable product recommendations for large WooCommerce stores: similar"
+" products, frequently bought together, recently viewed, personalized \"for "
+"you\" and trending — computed in the background, loaded via AJAX, with "
+"click/conversion analytics."
+msgstr ""
+"پیشنهاد محصول سریع و مقیاس‌پذیر برای فروشگاه‌های بزرگ ووکامرس: محصولات "
+"مشابه، اغلب با هم خریداری می‌شوند، بازدیدهای اخیر، پیشنهاد شخصی «برای شما» و"
+" پرطرفدارها؛ محاسبه در پس‌زمینه، بارگذاری با AJAX و آمار کلیک و فروش."
+
+#. Author of the plugin
+#: smart-product-recommendations.php
+msgid "Moh"
+msgstr "Moh"
+
+#: includes/class-spr-admin.php:42
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/class-spr-admin.php:49 includes/class-spr-admin.php:454
+#: includes/class-spr-widget.php:16
+msgid "Product recommendations"
+msgstr "پیشنهاد محصولات"
+
+#: includes/class-spr-admin.php:50
+msgid "Recommendations"
+msgstr "پیشنهاد محصولات"
+
+#: includes/class-spr-admin.php:109
+msgid "Not built yet"
+msgstr "هنوز ساخته نشده"
+
+#: includes/class-spr-admin.php:110
+msgid "Building"
+msgstr "در حال ساخت"
+
+#: includes/class-spr-admin.php:111
+msgid "Up to date"
+msgstr "به‌روز"
+
+#: includes/class-spr-admin.php:112
+msgid "Reading product names"
+msgstr "خواندن نام محصولات"
+
+#: includes/class-spr-admin.php:113
+msgid "Weighing words"
+msgstr "سنجش اهمیت کلمات"
+
+#: includes/class-spr-admin.php:114
+msgid "Finding matches for each product"
+msgstr "پیدا کردن پیشنهاد برای هر محصول"
+
+#: includes/class-spr-admin.php:115
+msgid ""
+"Rebuild recommendations for all products? The store keeps showing the "
+"current ones until it finishes."
+msgstr ""
+"پیشنهادهای همه محصولات دوباره ساخته شود؟ تا پایان کار، فروشگاه پیشنهادهای "
+"فعلی را نشان می‌دهد."
+
+#: includes/class-spr-admin.php:116
+msgid "No matches for this product yet."
+msgstr "هنوز پیشنهادی برای این محصول پیدا نشده."
+
+#. translators: %s: number
+#: includes/class-spr-admin.php:118
+#, php-format
+msgid "%s stored recommendations"
+msgstr "%s پیشنهاد ذخیره‌شده"
+
+#. translators: %s: date
+#: includes/class-spr-admin.php:120
+#, php-format
+msgid "Last built %s"
+msgstr "آخرین ساخت: %s"
+
+#. translators: %s: date
+#: includes/class-spr-admin.php:122
+#, php-format
+msgid "Next automatic build %s"
+msgstr "ساخت خودکار بعدی: %s"
+
+#. translators: 1: done, 2: total
+#: includes/class-spr-admin.php:124
+#, php-format
+msgid "%1$s of %2$s products"
+msgstr "%1$s از %2$s محصول"
+
+#: includes/class-spr-admin.php:125
+msgid "Changes saved"
+msgstr "تغییرات ذخیره شد"
+
+#: includes/class-spr-admin.php:126
+msgid "Changes were not saved. Check your connection and try again."
+msgstr "تغییرات ذخیره نشد. اتصال اینترنت را بررسی کنید و دوباره امتحان کنید."
+
+#: includes/class-spr-admin.php:127
+msgid "You have unsaved changes"
+msgstr "تغییرات ذخیره‌نشده دارید"
+
+#: includes/class-spr-admin.php:128 includes/class-spr-admin.php:495
+msgid "All changes saved"
+msgstr "همه تغییرات ذخیره شده"
+
+#: includes/class-spr-admin.php:129
+msgid "Shortcode copied"
+msgstr "شورت‌کد کپی شد"
+
+#: includes/class-spr-admin.php:130
+msgid "Out of stock"
+msgstr "ناموجود"
+
+#: includes/class-spr-admin.php:131 includes/class-spr-settings.php:23
+#: includes/class-spr-settings.php:59
+msgid "Similar products"
+msgstr "محصولات مشابه"
+
+#: includes/class-spr-admin.php:132 includes/class-spr-settings.php:29
+#: includes/class-spr-settings.php:60
+msgid "Frequently bought together"
+msgstr "اغلب با هم خریداری می‌شوند"
+
+#: includes/class-spr-admin.php:133
+msgid ""
+"The preview needs the first build to finish. It uses real products from your"
+" store."
+msgstr ""
+"پیش‌نمایش بعد از اولین ساخت آماده می‌شود، چون از محصولات واقعی فروشگاه شما "
+"استفاده می‌کند."
+
+#: includes/class-spr-admin.php:134 includes/class-spr-admin.php:357
+msgid "No product matches that ID or name."
+msgstr "محصولی با این شناسه یا نام پیدا نشد."
+
+#. translators: %s: orders
+#: includes/class-spr-admin.php:385
+#, php-format
+msgid "%s order"
+msgid_plural "%s orders"
+msgstr[0] "%s سفارش"
+msgstr[1] "%s سفارش"
+
+#: includes/class-spr-admin.php:432
+msgid "Overview"
+msgstr "پیشخوان"
+
+#: includes/class-spr-admin.php:433
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: includes/class-spr-admin.php:434
+msgid "Where to show"
+msgstr "محل نمایش"
+
+#: includes/class-spr-admin.php:435
+msgid "Matching"
+msgstr "الگوریتم پیشنهاد"
+
+#: includes/class-spr-admin.php:436 includes/class-spr-admin.php:958
+msgid "Results"
+msgstr "نتایج"
+
+#: includes/class-spr-admin.php:437
+msgid "Shortcode"
+msgstr "شورت‌کد"
+
+#. translators: %s: number of products
+#: includes/class-spr-admin.php:455
+#, php-format
+msgid "%s published product"
+msgid_plural "%s published products"
+msgstr[0] "%s محصول منتشرشده"
+msgstr[1] "%s محصول منتشرشده"
+
+#: includes/class-spr-admin.php:462
+msgid "Sections"
+msgstr "بخش‌ها"
+
+#: includes/class-spr-admin.php:469
+msgid "Matching settings changed. Rebuild so every product uses them."
+msgstr ""
+"تنظیمات الگوریتم تغییر کرد. بازسازی کنید تا روی همه محصولات اعمال شود."
+
+#: includes/class-spr-admin.php:470 includes/class-spr-admin.php:605
+msgid "Rebuild now"
+msgstr "بازسازی الان"
+
+#: includes/class-spr-admin.php:496
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: includes/class-spr-admin.php:565
+msgid "Build recommendations"
+msgstr "ساخت پیشنهادها"
+
+#: includes/class-spr-admin.php:566
+msgid ""
+"Every product is compared with the rest of the catalog once, in the "
+"background."
+msgstr "هر محصول یک بار در پس‌زمینه با بقیه محصولات فروشگاه مقایسه می‌شود."
+
+#: includes/class-spr-admin.php:571
+msgid "Connect sales history"
+msgstr "اتصال به سابقه فروش"
+
+#: includes/class-spr-admin.php:573
+msgid ""
+"WooCommerce Analytics is on, so \"bought together\" learns from real orders."
+msgstr ""
+"آمار ووکامرس فعال است؛ «با هم خریداری می‌شوند» از سفارش‌های واقعی یاد "
+"می‌گیرد."
+
+#: includes/class-spr-admin.php:574
+msgid ""
+"Turn on WooCommerce Analytics and import past orders (Analytics → Settings →"
+" Import historical data)."
+msgstr ""
+"آمار ووکامرس را فعال کنید و سفارش‌های قبلی را درون‌ریزی کنید (آمار ← تنظیمات"
+" ← درون‌ریزی داده‌های تاریخی)."
+
+#: includes/class-spr-admin.php:579
+msgid "Choose where they appear"
+msgstr "انتخاب محل نمایش"
+
+#. translators: %s: number
+#: includes/class-spr-admin.php:580
+#, php-format
+msgid "%s location is on."
+msgid_plural "%s locations are on."
+msgstr[0] "%s محل فعال است."
+msgstr[1] "%s محل فعال است."
+
+#: includes/class-spr-admin.php:585
+msgid "First shopper clicks"
+msgstr "اولین کلیک مشتری‌ها"
+
+#: includes/class-spr-admin.php:587
+msgid "Shoppers are using recommendations. See what works under Results."
+msgstr ""
+"مشتری‌ها از پیشنهادها استفاده می‌کنند. در بخش نتایج ببینید کدام بهتر جواب "
+"می‌دهد."
+
+#: includes/class-spr-admin.php:588
+msgid "Results appear here once visitors start clicking recommended products."
+msgstr ""
+"وقتی بازدیدکننده‌ها روی محصولات پیشنهادی کلیک کنند، نتایج اینجا نمایش داده "
+"می‌شود."
+
+#: includes/class-spr-admin.php:595
+msgid "Recommendation index"
+msgstr "ایندکس پیشنهادها"
+
+#: includes/class-spr-admin.php:606
+msgid "Stop"
+msgstr "توقف"
+
+#: includes/class-spr-admin.php:608
+msgid ""
+"Keeping this page open makes the build faster. On large stores you can also "
+"run wp spr rebuild over SSH."
+msgstr ""
+"باز ماندن این صفحه ساخت را سریع‌تر می‌کند. در فروشگاه‌های بزرگ می‌توانید از "
+"طریق SSH دستور wp spr rebuild را هم اجرا کنید."
+
+#: includes/class-spr-admin.php:612
+msgid "Setup"
+msgstr "راه‌اندازی"
+
+#: includes/class-spr-admin.php:618
+msgid "done"
+msgstr "انجام شد"
+
+#: includes/class-spr-admin.php:621
+msgid "Open"
+msgstr "باز کردن"
+
+#: includes/class-spr-admin.php:621
+msgid "Set up"
+msgstr "تنظیم"
+
+#: includes/class-spr-admin.php:631
+msgid "Last 30 days"
+msgstr "۳۰ روز اخیر"
+
+#: includes/class-spr-admin.php:632
+msgid "All results"
+msgstr "همه نتایج"
+
+#: includes/class-spr-admin.php:648
+msgid "Cards"
+msgstr "کارتی"
+
+#: includes/class-spr-admin.php:648
+msgid "Framed, works on any background"
+msgstr "قاب‌دار، مناسب هر پس‌زمینه"
+
+#: includes/class-spr-admin.php:649
+msgid "Minimal"
+msgstr "مینیمال"
+
+#: includes/class-spr-admin.php:649
+msgid "Photo-led, no frame"
+msgstr "تمرکز روی عکس، بدون قاب"
+
+#: includes/class-spr-admin.php:650
+msgid "Compact rows"
+msgstr "ردیفی فشرده"
+
+#: includes/class-spr-admin.php:650
+msgid "For sidebars and the cart"
+msgstr "مناسب ستون کناری و سبد خرید"
+
+#: includes/class-spr-admin.php:653
+msgid "Turquoise"
+msgstr "فیروزه‌ای"
+
+#: includes/class-spr-admin.php:654
+msgid "Navy"
+msgstr "سرمه‌ای"
+
+#: includes/class-spr-admin.php:655
+msgid "Crimson"
+msgstr "زرشکی"
+
+#: includes/class-spr-admin.php:656
+msgid "Orange"
+msgstr "نارنجی"
+
+#: includes/class-spr-admin.php:657
+msgid "Green"
+msgstr "سبز"
+
+#: includes/class-spr-admin.php:658
+msgid "Charcoal"
+msgstr "زغالی"
+
+#: includes/class-spr-admin.php:665
+msgid "Card style"
+msgstr "سبک کارت"
+
+#: includes/class-spr-admin.php:679
+msgid "Color and shape"
+msgstr "رنگ و فرم"
+
+#: includes/class-spr-admin.php:681
+msgid "Accent color"
+msgstr "رنگ اصلی"
+
+#: includes/class-spr-admin.php:691
+msgid ""
+"Used for buttons, the bundle total and selected items. Pick your brand "
+"color."
+msgstr ""
+"برای دکمه‌ها، جمع بسته خرید و موارد انتخاب‌شده. رنگ برند خودتان را انتخاب "
+"کنید."
+
+#: includes/class-spr-admin.php:693
+msgid "Corner roundness"
+msgstr "گردی گوشه‌ها"
+
+#: includes/class-spr-admin.php:693
+msgid "Square"
+msgstr "تیز"
+
+#: includes/class-spr-admin.php:693
+msgid "Round"
+msgstr "گرد"
+
+#: includes/class-spr-admin.php:697 includes/class-spr-admin.php:1038
+msgid "Layout"
+msgstr "چیدمان"
+
+#: includes/class-spr-admin.php:699 includes/class-spr-admin.php:1040
+msgid "Slider"
+msgstr "اسلایدر"
+
+#: includes/class-spr-admin.php:700 includes/class-spr-admin.php:1041
+msgid "Grid"
+msgstr "شبکه‌ای"
+
+#: includes/class-spr-admin.php:702
+msgid "Products per row on desktop"
+msgstr "تعداد محصول در هر ردیف (دسکتاپ)"
+
+#: includes/class-spr-admin.php:702
+msgid "Narrow spaces and phones show fewer automatically."
+msgstr "در فضاهای باریک و موبایل خودکار کمتر نمایش داده می‌شود."
+
+#: includes/class-spr-admin.php:706
+msgid "On each card"
+msgstr "روی هر کارت"
+
+#: includes/class-spr-admin.php:709
+msgid "Quick \"add to cart\" button"
+msgstr "دکمه سریع «افزودن به سبد»"
+
+#: includes/class-spr-admin.php:710
+msgid "Discount percentage"
+msgstr "درصد تخفیف"
+
+#: includes/class-spr-admin.php:711
+msgid "Star rating"
+msgstr "امتیاز ستاره‌ای"
+
+#: includes/class-spr-admin.php:711
+msgid "Only for products that have reviews."
+msgstr "فقط برای محصولاتی که دیدگاه دارند."
+
+#: includes/class-spr-admin.php:712
+msgid "Show \"bought together\" as a bundle"
+msgstr "نمایش «با هم خریداری می‌شوند» به شکل بسته"
+
+#: includes/class-spr-admin.php:712
+msgid ""
+"This product plus its usual companions, with a live total and one button to "
+"add them all."
+msgstr ""
+"همین محصول و همراه‌های همیشگی‌اش، با جمع قیمت زنده و یک دکمه برای افزودن "
+"همه."
+
+#: includes/class-spr-admin.php:718 includes/class-spr-admin.php:720
+msgid "Live preview"
+msgstr "پیش‌نمایش زنده"
+
+#: includes/class-spr-admin.php:721
+msgid "Preview width"
+msgstr "عرض پیش‌نمایش"
+
+#: includes/class-spr-admin.php:722
+msgid "Desktop"
+msgstr "دسکتاپ"
+
+#: includes/class-spr-admin.php:723
+msgid "Mobile"
+msgstr "موبایل"
+
+#: includes/class-spr-admin.php:727
+msgid "Preview another product: ID or name"
+msgstr "پیش‌نمایش محصول دیگر: شناسه یا نام"
+
+#: includes/class-spr-admin.php:727
+msgid "Preview another product"
+msgstr "پیش‌نمایش محصول دیگر"
+
+#: includes/class-spr-admin.php:733
+msgid ""
+"Real products from your store. On the live site your theme's font is used."
+msgstr "محصولات واقعی فروشگاه شما. در سایت، فونت قالب خودتان استفاده می‌شود."
+
+#: includes/class-spr-admin.php:749
+msgid "Under the product summary, as a bundle with one \"add all\" button."
+msgstr "زیر خلاصه محصول، به شکل بسته با یک دکمه «افزودن همه»."
+
+#: includes/class-spr-admin.php:750
+msgid "Under the product, in place of \"Related products\"."
+msgstr "پایین صفحه محصول، به جای «محصولات مرتبط»."
+
+#: includes/class-spr-admin.php:751
+msgid "Helps shoppers get back to what they were comparing."
+msgstr "به مشتری کمک می‌کند به محصولاتی که مقایسه می‌کرد برگردد."
+
+#: includes/class-spr-admin.php:752
+msgid "Under the cart, based on what is in it."
+msgstr "زیر سبد خرید، بر اساس محتوای سبد."
+
+#: includes/class-spr-admin.php:753
+msgid "After checkout, based on what was just bought."
+msgstr "بعد از پرداخت، بر اساس خرید انجام‌شده."
+
+#: includes/class-spr-admin.php:759
+msgid "Locations"
+msgstr "محل‌ها"
+
+#: includes/class-spr-admin.php:760
+msgid "Leave a title empty to use the default shown in grey."
+msgstr "اگر عنوان را خالی بگذارید، عنوان پیش‌فرض (خاکستری) استفاده می‌شود."
+
+#: includes/class-spr-admin.php:770 includes/class-spr-admin.php:1035
+#: includes/class-spr-widget.php:57
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/class-spr-admin.php:772 includes/class-spr-admin.php:1036
+msgid "Products"
+msgstr "تعداد محصول"
+
+#: includes/class-spr-admin.php:781
+msgid "Rules"
+msgstr "قوانین"
+
+#: includes/class-spr-admin.php:784
+msgid "Skip out-of-stock products"
+msgstr "محصولات ناموجود پیشنهاد نشوند"
+
+#: includes/class-spr-admin.php:785
+msgid "Replace WooCommerce's \"Related products\""
+msgstr "جایگزینی «محصولات مرتبط» ووکامرس"
+
+#: includes/class-spr-admin.php:785
+msgid "Avoids showing two similar rows on the product page."
+msgstr "از نمایش دو ردیف مشابه در صفحه محصول جلوگیری می‌کند."
+
+#: includes/class-spr-admin.php:788
+msgid "Keep ready-made blocks for"
+msgstr "نگه‌داری بلوک‌های آماده به مدت"
+
+#: includes/class-spr-admin.php:788
+msgid "Makes pages faster. 0 turns it off."
+msgstr "صفحه‌ها را سریع‌تر می‌کند. صفر یعنی خاموش."
+
+#: includes/class-spr-admin.php:788
+msgid "minutes"
+msgstr "دقیقه"
+
+#: includes/class-spr-admin.php:792
+msgid "Never recommend"
+msgstr "هرگز پیشنهاد نشوند"
+
+#: includes/class-spr-admin.php:794
+msgid "Product IDs"
+msgstr "شناسه محصولات"
+
+#: includes/class-spr-admin.php:798
+msgid "Categories (sub-categories included)"
+msgstr "دسته‌بندی‌ها (همراه زیردسته‌ها)"
+
+#: includes/class-spr-admin.php:799
+msgid "Filter categories"
+msgstr "جستجوی دسته‌بندی"
+
+#: includes/class-spr-admin.php:805
+msgid "Hold Ctrl (⌘ on Mac) to select more than one."
+msgstr "برای انتخاب چند مورد، کلید Ctrl (در مک ⌘) را نگه دارید."
+
+#: includes/class-spr-admin.php:820
+msgid "Ignore"
+msgstr "بی‌اهمیت"
+
+#: includes/class-spr-admin.php:821
+msgid "Very important"
+msgstr "خیلی مهم"
+
+#: includes/class-spr-admin.php:827
+msgid "What makes two products similar"
+msgstr "چه چیزی دو محصول را شبیه هم می‌کند"
+
+#: includes/class-spr-admin.php:828
+msgid ""
+"Products are compared on what they share. Rare things in common (same brand,"
+" a specific category) count more than common ones."
+msgstr ""
+"محصولات بر اساس اشتراک‌هایشان مقایسه می‌شوند. اشتراک‌های کمیاب (مثل برند "
+"یکسان یا دسته‌ای خاص) از اشتراک‌های رایج مهم‌ترند."
+
+#: includes/class-spr-admin.php:830
+msgid "Same category"
+msgstr "دسته‌بندی یکسان"
+
+#: includes/class-spr-admin.php:831
+msgid "Same brand"
+msgstr "برند یکسان"
+
+#: includes/class-spr-admin.php:831
+msgid ""
+"No brand taxonomy found. Brands stored as attributes or tags are covered by "
+"those weights."
+msgstr ""
+"طبقه‌بندی برند پیدا نشد. اگر برند را در ویژگی‌ها یا برچسب‌ها ثبت کرده‌اید، "
+"همان وزن‌ها اعمال می‌شود."
+
+#: includes/class-spr-admin.php:832
+msgid "Words in the product name"
+msgstr "کلمات مشترک در نام محصول"
+
+#: includes/class-spr-admin.php:833
+msgid "Same attributes (color, size…)"
+msgstr "ویژگی‌های یکسان (رنگ، سایز…)"
+
+#: includes/class-spr-admin.php:834
+msgid "Same tags"
+msgstr "برچسب‌های یکسان"
+
+#: includes/class-spr-admin.php:835
+msgid "Similar price"
+msgstr "قیمت نزدیک"
+
+#: includes/class-spr-admin.php:835
+msgid "Higher values keep suggestions within the same price range."
+msgstr "مقدار بیشتر، پیشنهادها را در همان رده قیمتی نگه می‌دارد."
+
+#: includes/class-spr-admin.php:836
+msgid "Ignore anything shared by more than this % of products"
+msgstr "نادیده گرفتن مواردی که در بیش از این درصد محصولات مشترک‌اند"
+
+#: includes/class-spr-admin.php:836
+msgid ""
+"A category holding a large part of the catalog says little about similarity "
+"and slows the build."
+msgstr ""
+"دسته‌ای که بخش بزرگی از محصولات را دارد، چیز زیادی درباره شباهت نمی‌گوید و "
+"ساخت را کند می‌کند."
+
+#: includes/class-spr-admin.php:841
+msgid "Bought together"
+msgstr "خرید همزمان"
+
+#: includes/class-spr-admin.php:843
+msgid "Pair must appear in at least"
+msgstr "حداقل سفارش مشترک"
+
+#: includes/class-spr-admin.php:843
+msgid "Higher values filter out coincidences."
+msgstr "مقدار بیشتر، خریدهای تصادفی را حذف می‌کند."
+
+#: includes/class-spr-admin.php:843
+msgid "orders"
+msgstr "سفارش"
+
+#: includes/class-spr-admin.php:844
+msgid "Use orders from the last"
+msgstr "استفاده از سفارش‌های"
+
+#: includes/class-spr-admin.php:844
+msgid "days"
+msgstr "روز اخیر"
+
+#: includes/class-spr-admin.php:849
+msgid "Build schedule"
+msgstr "زمان‌بندی ساخت"
+
+#: includes/class-spr-admin.php:851
+msgid "Every night"
+msgstr "هر شب"
+
+#: includes/class-spr-admin.php:851
+msgid "Weekly"
+msgstr "هفتگی"
+
+#: includes/class-spr-admin.php:851
+msgid "Only when I ask"
+msgstr "فقط دستی"
+
+#: includes/class-spr-admin.php:855
+msgid ""
+"Edited products update right after you save them, whatever the schedule."
+msgstr ""
+"محصولات ویرایش‌شده، صرف‌نظر از زمان‌بندی، بلافاصله بعد از ذخیره به‌روز "
+"می‌شوند."
+
+#: includes/class-spr-admin.php:857
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: includes/class-spr-admin.php:859
+msgid "Matches kept per product"
+msgstr "تعداد پیشنهاد ذخیره‌شده برای هر محصول"
+
+#: includes/class-spr-admin.php:860
+msgid "Products per build step"
+msgstr "تعداد محصول در هر مرحله ساخت"
+
+#: includes/class-spr-admin.php:860
+msgid "Lower it on slow shared hosting."
+msgstr "روی هاست اشتراکی کند، کمترش کنید."
+
+#: includes/class-spr-admin.php:867
+msgid "Check a product"
+msgstr "بررسی یک محصول"
+
+#: includes/class-spr-admin.php:868
+msgid "See what a product recommends and how strong each match is."
+msgstr ""
+"ببینید یک محصول چه چیزهایی را پیشنهاد می‌دهد و هر پیشنهاد چقدر قوی است."
+
+#: includes/class-spr-admin.php:870
+msgid "Product ID or name"
+msgstr "شناسه یا نام محصول"
+
+#: includes/class-spr-admin.php:871
+msgid "Check"
+msgstr "بررسی"
+
+#: includes/class-spr-admin.php:897 includes/class-spr-admin.php:978
+msgid "Times shown"
+msgstr "دفعات نمایش"
+
+#: includes/class-spr-admin.php:898 includes/class-spr-admin.php:979
+msgid "Clicks"
+msgstr "کلیک"
+
+#. translators: %s: percent
+#: includes/class-spr-admin.php:898
+#, php-format
+msgid "%s%% of views"
+msgstr "%s%% از نمایش‌ها"
+
+#. translators: %s: percent
+#: includes/class-spr-admin.php:899
+msgid "Orders from recommendations"
+msgstr "سفارش از پیشنهادها"
+
+#: includes/class-spr-admin.php:900
+msgid "Revenue from recommendations"
+msgstr "درآمد از پیشنهادها"
+
+#: includes/class-spr-admin.php:921
+msgid "No clicks yet. The chart fills in as shoppers use recommendations."
+msgstr ""
+"هنوز کلیکی ثبت نشده. با استفاده مشتری‌ها از پیشنهادها، نمودار پر می‌شود."
+
+#: includes/class-spr-admin.php:925
+msgid ""
+"Clicks per day. Days with an order from a recommendation are marked in gold."
+msgstr ""
+"کلیک روزانه. روزهایی که سفارش از پیشنهادها ثبت شده با نقطه طلایی مشخص‌اند."
+
+#. translators: %s: clicks
+#: includes/class-spr-admin.php:927
+#, php-format
+msgid "%s click"
+msgid_plural "%s clicks"
+msgstr[0] "%s کلیک"
+msgstr[1] "%s کلیک"
+
+#. translators: %s: type
+#: includes/class-spr-admin.php:948
+#, php-format
+msgid "Shortcode: %s"
+msgstr "شورت‌کد: %s"
+
+#. translators: %s: type
+#: includes/class-spr-admin.php:949
+#, php-format
+msgid "Widget: %s"
+msgstr "ابزارک: %s"
+
+#: includes/class-spr-admin.php:959
+msgid "Period"
+msgstr "بازه"
+
+#. translators: %s: days
+#: includes/class-spr-admin.php:961
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s روز"
+msgstr[1] "%s روز"
+
+#: includes/class-spr-admin.php:970
+msgid "By location"
+msgstr "به تفکیک محل نمایش"
+
+#: includes/class-spr-admin.php:972
+msgid "Nothing to compare yet. Each location gets a row once shoppers see it."
+msgstr ""
+"هنوز داده‌ای برای مقایسه نیست. هر محل بعد از دیده شدن توسط مشتری‌ها اینجا "
+"اضافه می‌شود."
+
+#: includes/class-spr-admin.php:977
+msgid "Location"
+msgstr "محل"
+
+#: includes/class-spr-admin.php:980
+msgid "Click rate"
+msgstr "نرخ کلیک"
+
+#: includes/class-spr-admin.php:981
+msgid "Orders"
+msgstr "سفارش"
+
+#: includes/class-spr-admin.php:982
+msgid "Revenue"
+msgstr "درآمد"
+
+#: includes/class-spr-admin.php:999
+msgid ""
+"An order counts for a location when the shopper clicked a product there in "
+"the 30 days before buying it."
+msgstr ""
+"سفارشی به یک محل نسبت داده می‌شود که مشتری در ۳۰ روز قبل از خرید، روی همان "
+"محصول در آن محل کلیک کرده باشد."
+
+#: includes/class-spr-admin.php:1011
+msgid ""
+"Like the product being viewed. Use on product pages, or set a product ID."
+msgstr ""
+"شبیه محصولی که دیده می‌شود. در صفحه محصول استفاده کنید یا شناسه محصول بدهید."
+
+#: includes/class-spr-admin.php:1012
+msgid "Often bought with the product being viewed."
+msgstr "محصولاتی که اغلب همراه این محصول خریده می‌شوند."
+
+#: includes/class-spr-admin.php:1013
+msgid "What this visitor looked at recently."
+msgstr "محصولاتی که این بازدیدکننده اخیراً دیده."
+
+#: includes/class-spr-admin.php:1014
+msgid ""
+"Picked from this visitor's browsing; best sellers for new visitors. Good for"
+" the home page."
+msgstr ""
+"بر اساس بازدیدهای همین کاربر؛ برای بازدیدکننده جدید، پرفروش‌ها. مناسب صفحه "
+"اصلی."
+
+#: includes/class-spr-admin.php:1015
+msgid "Most viewed this week."
+msgstr "پربازدیدترین‌های این هفته."
+
+#: includes/class-spr-admin.php:1016
+msgid "Based on what is in the cart."
+msgstr "بر اساس محتوای سبد خرید."
+
+#: includes/class-spr-admin.php:1022
+msgid "Add recommendations anywhere"
+msgstr "افزودن پیشنهادها به هر صفحه"
+
+#: includes/class-spr-admin.php:1023
+msgid ""
+"Pick the options, copy the shortcode and paste it into a page, a post or a "
+"Shortcode block."
+msgstr ""
+"گزینه‌ها را انتخاب کنید، شورت‌کد را کپی کنید و در برگه، نوشته یا بلوک "
+"شورت‌کد قرار دهید."
+
+#: includes/class-spr-admin.php:1026
+msgid "What to show"
+msgstr "چه چیزی نمایش داده شود"
+
+#: includes/class-spr-admin.php:1035
+msgid "Default title"
+msgstr "عنوان پیش‌فرض"
+
+#: includes/class-spr-admin.php:1037
+msgid "Per row"
+msgstr "در هر ردیف"
+
+#: includes/class-spr-admin.php:1039
+msgid "As in settings"
+msgstr "مطابق تنظیمات"
+
+#: includes/class-spr-admin.php:1043
+msgid "Product ID (optional)"
+msgstr "شناسه محصول (اختیاری)"
+
+#: includes/class-spr-admin.php:1046
+msgid "Copy"
+msgstr "کپی"
+
+#: includes/class-spr-admin.php:1053
+msgid "In theme files"
+msgstr "در فایل‌های قالب"
+
+#: includes/class-spr-admin.php:1055
+msgid ""
+"Change the card markup with yourtheme/smart-product-"
+"recommendations/card.php."
+msgstr ""
+"برای تغییر ساختار کارت، فایل yourtheme/smart-product-"
+"recommendations/card.php را بسازید."
+
+#: includes/class-spr-admin.php:1059
+msgid "Apps and headless stores"
+msgstr "اپلیکیشن و فروشگاه Headless"
+
+#: includes/class-spr-frontend.php:42
+msgid "Adding…"
+msgstr "در حال افزودن…"
+
+#. translators: %d: number of products
+#: includes/class-spr-frontend.php:44
+#, php-format
+msgid "%d items added to your cart."
+msgstr "%d محصول به سبد خرید اضافه شد."
+
+#: includes/class-spr-frontend.php:45
+msgid "View cart"
+msgstr "مشاهده سبد خرید"
+
+#: includes/class-spr-frontend.php:46
+msgid ""
+"Some items could not be added. Open the product page to choose options."
+msgstr ""
+"بعضی محصولات اضافه نشدند. برای انتخاب گزینه‌ها صفحه محصول را باز کنید."
+
+#: includes/class-spr-frontend.php:47
+msgid "Select at least one item."
+msgstr "حداقل یک محصول را انتخاب کنید."
+
+#: includes/class-spr-renderer.php:80
+msgid "Previous"
+msgstr "قبلی"
+
+#: includes/class-spr-renderer.php:81
+msgid "Next"
+msgstr "بعدی"
+
+#. translators: %s: product name
+#: includes/class-spr-renderer.php:165
+#, php-format
+msgid "Include %s"
+msgstr "انتخاب %s"
+
+#: includes/class-spr-renderer.php:168
+msgid "This item:"
+msgstr "همین محصول:"
+
+#: includes/class-spr-renderer.php:182
+msgid "Total for selected items"
+msgstr "جمع قیمت موارد انتخاب‌شده"
+
+#. translators: %d: number of products
+#: includes/class-spr-renderer.php:184 includes/class-spr-renderer.php:185
+#, php-format
+msgid "Add %d items to cart"
+msgstr "افزودن %d محصول به سبد"
+
+#: includes/class-spr-renderer.php:184
+msgid "Add to cart"
+msgstr "افزودن به سبد"
+
+#. translators: %s: discount percent
+#: includes/class-spr-renderer.php:219
+#, php-format
+msgid "%s%% off"
+msgstr "%s%% تخفیف"
+
+#. translators: %s: discount percent
+#: includes/class-spr-renderer.php:220
+msgid "Sale"
+msgstr "تخفیف"
+
+#: includes/class-spr-settings.php:22
+msgid "Product page — similar products"
+msgstr "صفحه محصول: محصولات مشابه"
+
+#: includes/class-spr-settings.php:28
+msgid "Product page — frequently bought together"
+msgstr "صفحه محصول: اغلب با هم خریداری می‌شوند"
+
+#: includes/class-spr-settings.php:34
+msgid "Product page — recently viewed"
+msgstr "صفحه محصول: بازدیدهای اخیر"
+
+#: includes/class-spr-settings.php:35 includes/class-spr-settings.php:61
+msgid "Recently viewed"
+msgstr "بازدیدهای اخیر شما"
+
+#: includes/class-spr-settings.php:40
+msgid "Cart page"
+msgstr "صفحه سبد خرید"
+
+#: includes/class-spr-settings.php:41 includes/class-spr-settings.php:64
+msgid "You may also like"
+msgstr "شاید این‌ها را هم بپسندید"
+
+#: includes/class-spr-settings.php:46
+msgid "Order received (thank-you) page"
+msgstr "صفحه تشکر از خرید"
+
+#: includes/class-spr-settings.php:47 includes/class-spr-settings.php:62
+msgid "Recommended for you"
+msgstr "پیشنهاد ویژه برای شما"
+
+#: includes/class-spr-settings.php:63
+msgid "Trending now"
+msgstr "پرطرفدارهای این هفته"
+
+#: includes/class-spr-widget.php:17
+msgid ""
+"Similar, bought together, recently viewed, for you or trending products."
+msgstr ""
+"محصولات مشابه، با هم خریداری‌شده، بازدیدهای اخیر، پیشنهاد شخصی یا پرطرفدار."
+
+#: includes/class-spr-widget.php:61
+msgid "Recommendation type"
+msgstr "نوع پیشنهاد"
+
+#: includes/class-spr-widget.php:69
+msgid "Number of products"
+msgstr "تعداد محصولات"
+
+#: includes/class-spr-widget.php:71
+msgid "Columns"
+msgstr "ستون‌ها"
+
+#: smart-product-recommendations.php:64
+msgid ""
+"Smart Product Recommendations requires WooCommerce to be installed and "
+"active."
+msgstr "افزونه پیشنهاد هوشمند محصولات به ووکامرس فعال نیاز دارد."

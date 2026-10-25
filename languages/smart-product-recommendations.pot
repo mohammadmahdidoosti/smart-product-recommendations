@@ -1,0 +1,945 @@
+# Copyright (C) 2026 Moh
+# This file is distributed under the same license as the Smart Product Recommendations for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Smart Product Recommendations for WooCommerce 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/smart-product-recommendations\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-23T14:19:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: smart-product-recommendations\n"
+
+#. Plugin Name of the plugin
+#: smart-product-recommendations.php
+msgid "Smart Product Recommendations for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: smart-product-recommendations.php
+msgid "Fast, scalable product recommendations for large WooCommerce stores: similar products, frequently bought together, recently viewed, personalized \"for you\" and trending — computed in the background, loaded via AJAX, with click/conversion analytics."
+msgstr ""
+
+#. Author of the plugin
+#: smart-product-recommendations.php
+msgid "Moh"
+msgstr ""
+
+#: includes/class-spr-admin.php:42
+msgid "Settings"
+msgstr ""
+
+#: includes/class-spr-admin.php:49
+#: includes/class-spr-admin.php:454
+#: includes/class-spr-widget.php:16
+msgid "Product recommendations"
+msgstr ""
+
+#: includes/class-spr-admin.php:50
+msgid "Recommendations"
+msgstr ""
+
+#: includes/class-spr-admin.php:109
+msgid "Not built yet"
+msgstr ""
+
+#: includes/class-spr-admin.php:110
+msgid "Building"
+msgstr ""
+
+#: includes/class-spr-admin.php:111
+msgid "Up to date"
+msgstr ""
+
+#: includes/class-spr-admin.php:112
+msgid "Reading product names"
+msgstr ""
+
+#: includes/class-spr-admin.php:113
+msgid "Weighing words"
+msgstr ""
+
+#: includes/class-spr-admin.php:114
+msgid "Finding matches for each product"
+msgstr ""
+
+#: includes/class-spr-admin.php:115
+msgid "Rebuild recommendations for all products? The store keeps showing the current ones until it finishes."
+msgstr ""
+
+#: includes/class-spr-admin.php:116
+msgid "No matches for this product yet."
+msgstr ""
+
+#. translators: %s: number
+#: includes/class-spr-admin.php:118
+#, php-format
+msgid "%s stored recommendations"
+msgstr ""
+
+#. translators: %s: date
+#: includes/class-spr-admin.php:120
+#, php-format
+msgid "Last built %s"
+msgstr ""
+
+#. translators: %s: date
+#: includes/class-spr-admin.php:122
+#, php-format
+msgid "Next automatic build %s"
+msgstr ""
+
+#. translators: 1: done, 2: total
+#: includes/class-spr-admin.php:124
+#, php-format
+msgid "%1$s of %2$s products"
+msgstr ""
+
+#: includes/class-spr-admin.php:125
+msgid "Changes saved"
+msgstr ""
+
+#: includes/class-spr-admin.php:126
+msgid "Changes were not saved. Check your connection and try again."
+msgstr ""
+
+#: includes/class-spr-admin.php:127
+msgid "You have unsaved changes"
+msgstr ""
+
+#: includes/class-spr-admin.php:128
+#: includes/class-spr-admin.php:495
+msgid "All changes saved"
+msgstr ""
+
+#: includes/class-spr-admin.php:129
+msgid "Shortcode copied"
+msgstr ""
+
+#: includes/class-spr-admin.php:130
+msgid "Out of stock"
+msgstr ""
+
+#: includes/class-spr-admin.php:131
+#: includes/class-spr-settings.php:23
+#: includes/class-spr-settings.php:59
+msgid "Similar products"
+msgstr ""
+
+#: includes/class-spr-admin.php:132
+#: includes/class-spr-settings.php:29
+#: includes/class-spr-settings.php:60
+msgid "Frequently bought together"
+msgstr ""
+
+#: includes/class-spr-admin.php:133
+msgid "The preview needs the first build to finish. It uses real products from your store."
+msgstr ""
+
+#: includes/class-spr-admin.php:134
+#: includes/class-spr-admin.php:357
+msgid "No product matches that ID or name."
+msgstr ""
+
+#. translators: %s: orders
+#: includes/class-spr-admin.php:385
+#, php-format
+msgid "%s order"
+msgid_plural "%s orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-spr-admin.php:432
+msgid "Overview"
+msgstr ""
+
+#: includes/class-spr-admin.php:433
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-spr-admin.php:434
+msgid "Where to show"
+msgstr ""
+
+#: includes/class-spr-admin.php:435
+msgid "Matching"
+msgstr ""
+
+#: includes/class-spr-admin.php:436
+#: includes/class-spr-admin.php:958
+msgid "Results"
+msgstr ""
+
+#: includes/class-spr-admin.php:437
+msgid "Shortcode"
+msgstr ""
+
+#. translators: %s: number of products
+#: includes/class-spr-admin.php:455
+#, php-format
+msgid "%s published product"
+msgid_plural "%s published products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-spr-admin.php:462
+msgid "Sections"
+msgstr ""
+
+#: includes/class-spr-admin.php:469
+msgid "Matching settings changed. Rebuild so every product uses them."
+msgstr ""
+
+#: includes/class-spr-admin.php:470
+#: includes/class-spr-admin.php:605
+msgid "Rebuild now"
+msgstr ""
+
+#: includes/class-spr-admin.php:496
+msgid "Save changes"
+msgstr ""
+
+#: includes/class-spr-admin.php:565
+msgid "Build recommendations"
+msgstr ""
+
+#: includes/class-spr-admin.php:566
+msgid "Every product is compared with the rest of the catalog once, in the background."
+msgstr ""
+
+#: includes/class-spr-admin.php:571
+msgid "Connect sales history"
+msgstr ""
+
+#: includes/class-spr-admin.php:573
+msgid "WooCommerce Analytics is on, so \"bought together\" learns from real orders."
+msgstr ""
+
+#: includes/class-spr-admin.php:574
+msgid "Turn on WooCommerce Analytics and import past orders (Analytics → Settings → Import historical data)."
+msgstr ""
+
+#: includes/class-spr-admin.php:579
+msgid "Choose where they appear"
+msgstr ""
+
+#. translators: %s: number
+#: includes/class-spr-admin.php:580
+#, php-format
+msgid "%s location is on."
+msgid_plural "%s locations are on."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-spr-admin.php:585
+msgid "First shopper clicks"
+msgstr ""
+
+#: includes/class-spr-admin.php:587
+msgid "Shoppers are using recommendations. See what works under Results."
+msgstr ""
+
+#: includes/class-spr-admin.php:588
+msgid "Results appear here once visitors start clicking recommended products."
+msgstr ""
+
+#: includes/class-spr-admin.php:595
+msgid "Recommendation index"
+msgstr ""
+
+#: includes/class-spr-admin.php:606
+msgid "Stop"
+msgstr ""
+
+#: includes/class-spr-admin.php:608
+msgid "Keeping this page open makes the build faster. On large stores you can also run wp spr rebuild over SSH."
+msgstr ""
+
+#: includes/class-spr-admin.php:612
+msgid "Setup"
+msgstr ""
+
+#: includes/class-spr-admin.php:618
+msgid "done"
+msgstr ""
+
+#: includes/class-spr-admin.php:621
+msgid "Open"
+msgstr ""
+
+#: includes/class-spr-admin.php:621
+msgid "Set up"
+msgstr ""
+
+#: includes/class-spr-admin.php:631
+msgid "Last 30 days"
+msgstr ""
+
+#: includes/class-spr-admin.php:632
+msgid "All results"
+msgstr ""
+
+#: includes/class-spr-admin.php:648
+msgid "Cards"
+msgstr ""
+
+#: includes/class-spr-admin.php:648
+msgid "Framed, works on any background"
+msgstr ""
+
+#: includes/class-spr-admin.php:649
+msgid "Minimal"
+msgstr ""
+
+#: includes/class-spr-admin.php:649
+msgid "Photo-led, no frame"
+msgstr ""
+
+#: includes/class-spr-admin.php:650
+msgid "Compact rows"
+msgstr ""
+
+#: includes/class-spr-admin.php:650
+msgid "For sidebars and the cart"
+msgstr ""
+
+#: includes/class-spr-admin.php:653
+msgid "Turquoise"
+msgstr ""
+
+#: includes/class-spr-admin.php:654
+msgid "Navy"
+msgstr ""
+
+#: includes/class-spr-admin.php:655
+msgid "Crimson"
+msgstr ""
+
+#: includes/class-spr-admin.php:656
+msgid "Orange"
+msgstr ""
+
+#: includes/class-spr-admin.php:657
+msgid "Green"
+msgstr ""
+
+#: includes/class-spr-admin.php:658
+msgid "Charcoal"
+msgstr ""
+
+#: includes/class-spr-admin.php:665
+msgid "Card style"
+msgstr ""
+
+#: includes/class-spr-admin.php:679
+msgid "Color and shape"
+msgstr ""
+
+#: includes/class-spr-admin.php:681
+msgid "Accent color"
+msgstr ""
+
+#: includes/class-spr-admin.php:691
+msgid "Used for buttons, the bundle total and selected items. Pick your brand color."
+msgstr ""
+
+#: includes/class-spr-admin.php:693
+msgid "Corner roundness"
+msgstr ""
+
+#: includes/class-spr-admin.php:693
+msgid "Square"
+msgstr ""
+
+#: includes/class-spr-admin.php:693
+msgid "Round"
+msgstr ""
+
+#: includes/class-spr-admin.php:697
+#: includes/class-spr-admin.php:1038
+msgid "Layout"
+msgstr ""
+
+#: includes/class-spr-admin.php:699
+#: includes/class-spr-admin.php:1040
+msgid "Slider"
+msgstr ""
+
+#: includes/class-spr-admin.php:700
+#: includes/class-spr-admin.php:1041
+msgid "Grid"
+msgstr ""
+
+#: includes/class-spr-admin.php:702
+msgid "Products per row on desktop"
+msgstr ""
+
+#: includes/class-spr-admin.php:702
+msgid "Narrow spaces and phones show fewer automatically."
+msgstr ""
+
+#: includes/class-spr-admin.php:706
+msgid "On each card"
+msgstr ""
+
+#: includes/class-spr-admin.php:709
+msgid "Quick \"add to cart\" button"
+msgstr ""
+
+#: includes/class-spr-admin.php:710
+msgid "Discount percentage"
+msgstr ""
+
+#: includes/class-spr-admin.php:711
+msgid "Star rating"
+msgstr ""
+
+#: includes/class-spr-admin.php:711
+msgid "Only for products that have reviews."
+msgstr ""
+
+#: includes/class-spr-admin.php:712
+msgid "Show \"bought together\" as a bundle"
+msgstr ""
+
+#: includes/class-spr-admin.php:712
+msgid "This product plus its usual companions, with a live total and one button to add them all."
+msgstr ""
+
+#: includes/class-spr-admin.php:718
+#: includes/class-spr-admin.php:720
+msgid "Live preview"
+msgstr ""
+
+#: includes/class-spr-admin.php:721
+msgid "Preview width"
+msgstr ""
+
+#: includes/class-spr-admin.php:722
+msgid "Desktop"
+msgstr ""
+
+#: includes/class-spr-admin.php:723
+msgid "Mobile"
+msgstr ""
+
+#: includes/class-spr-admin.php:727
+msgid "Preview another product: ID or name"
+msgstr ""
+
+#: includes/class-spr-admin.php:727
+msgid "Preview another product"
+msgstr ""
+
+#: includes/class-spr-admin.php:733
+msgid "Real products from your store. On the live site your theme's font is used."
+msgstr ""
+
+#: includes/class-spr-admin.php:749
+msgid "Under the product summary, as a bundle with one \"add all\" button."
+msgstr ""
+
+#: includes/class-spr-admin.php:750
+msgid "Under the product, in place of \"Related products\"."
+msgstr ""
+
+#: includes/class-spr-admin.php:751
+msgid "Helps shoppers get back to what they were comparing."
+msgstr ""
+
+#: includes/class-spr-admin.php:752
+msgid "Under the cart, based on what is in it."
+msgstr ""
+
+#: includes/class-spr-admin.php:753
+msgid "After checkout, based on what was just bought."
+msgstr ""
+
+#: includes/class-spr-admin.php:759
+msgid "Locations"
+msgstr ""
+
+#: includes/class-spr-admin.php:760
+msgid "Leave a title empty to use the default shown in grey."
+msgstr ""
+
+#: includes/class-spr-admin.php:770
+#: includes/class-spr-admin.php:1035
+#: includes/class-spr-widget.php:57
+msgid "Title"
+msgstr ""
+
+#: includes/class-spr-admin.php:772
+#: includes/class-spr-admin.php:1036
+msgid "Products"
+msgstr ""
+
+#: includes/class-spr-admin.php:781
+msgid "Rules"
+msgstr ""
+
+#: includes/class-spr-admin.php:784
+msgid "Skip out-of-stock products"
+msgstr ""
+
+#: includes/class-spr-admin.php:785
+msgid "Replace WooCommerce's \"Related products\""
+msgstr ""
+
+#: includes/class-spr-admin.php:785
+msgid "Avoids showing two similar rows on the product page."
+msgstr ""
+
+#: includes/class-spr-admin.php:788
+msgid "Keep ready-made blocks for"
+msgstr ""
+
+#: includes/class-spr-admin.php:788
+msgid "Makes pages faster. 0 turns it off."
+msgstr ""
+
+#: includes/class-spr-admin.php:788
+msgid "minutes"
+msgstr ""
+
+#: includes/class-spr-admin.php:792
+msgid "Never recommend"
+msgstr ""
+
+#: includes/class-spr-admin.php:794
+msgid "Product IDs"
+msgstr ""
+
+#: includes/class-spr-admin.php:798
+msgid "Categories (sub-categories included)"
+msgstr ""
+
+#: includes/class-spr-admin.php:799
+msgid "Filter categories"
+msgstr ""
+
+#: includes/class-spr-admin.php:805
+msgid "Hold Ctrl (⌘ on Mac) to select more than one."
+msgstr ""
+
+#: includes/class-spr-admin.php:820
+msgid "Ignore"
+msgstr ""
+
+#: includes/class-spr-admin.php:821
+msgid "Very important"
+msgstr ""
+
+#: includes/class-spr-admin.php:827
+msgid "What makes two products similar"
+msgstr ""
+
+#: includes/class-spr-admin.php:828
+msgid "Products are compared on what they share. Rare things in common (same brand, a specific category) count more than common ones."
+msgstr ""
+
+#: includes/class-spr-admin.php:830
+msgid "Same category"
+msgstr ""
+
+#: includes/class-spr-admin.php:831
+msgid "Same brand"
+msgstr ""
+
+#: includes/class-spr-admin.php:831
+msgid "No brand taxonomy found. Brands stored as attributes or tags are covered by those weights."
+msgstr ""
+
+#: includes/class-spr-admin.php:832
+msgid "Words in the product name"
+msgstr ""
+
+#: includes/class-spr-admin.php:833
+msgid "Same attributes (color, size…)"
+msgstr ""
+
+#: includes/class-spr-admin.php:834
+msgid "Same tags"
+msgstr ""
+
+#: includes/class-spr-admin.php:835
+msgid "Similar price"
+msgstr ""
+
+#: includes/class-spr-admin.php:835
+msgid "Higher values keep suggestions within the same price range."
+msgstr ""
+
+#: includes/class-spr-admin.php:836
+msgid "Ignore anything shared by more than this % of products"
+msgstr ""
+
+#: includes/class-spr-admin.php:836
+msgid "A category holding a large part of the catalog says little about similarity and slows the build."
+msgstr ""
+
+#: includes/class-spr-admin.php:841
+msgid "Bought together"
+msgstr ""
+
+#: includes/class-spr-admin.php:843
+msgid "Pair must appear in at least"
+msgstr ""
+
+#: includes/class-spr-admin.php:843
+msgid "Higher values filter out coincidences."
+msgstr ""
+
+#: includes/class-spr-admin.php:843
+msgid "orders"
+msgstr ""
+
+#: includes/class-spr-admin.php:844
+msgid "Use orders from the last"
+msgstr ""
+
+#: includes/class-spr-admin.php:844
+msgid "days"
+msgstr ""
+
+#: includes/class-spr-admin.php:849
+msgid "Build schedule"
+msgstr ""
+
+#: includes/class-spr-admin.php:851
+msgid "Every night"
+msgstr ""
+
+#: includes/class-spr-admin.php:851
+msgid "Weekly"
+msgstr ""
+
+#: includes/class-spr-admin.php:851
+msgid "Only when I ask"
+msgstr ""
+
+#: includes/class-spr-admin.php:855
+msgid "Edited products update right after you save them, whatever the schedule."
+msgstr ""
+
+#: includes/class-spr-admin.php:857
+msgid "Advanced"
+msgstr ""
+
+#: includes/class-spr-admin.php:859
+msgid "Matches kept per product"
+msgstr ""
+
+#: includes/class-spr-admin.php:860
+msgid "Products per build step"
+msgstr ""
+
+#: includes/class-spr-admin.php:860
+msgid "Lower it on slow shared hosting."
+msgstr ""
+
+#: includes/class-spr-admin.php:867
+msgid "Check a product"
+msgstr ""
+
+#: includes/class-spr-admin.php:868
+msgid "See what a product recommends and how strong each match is."
+msgstr ""
+
+#: includes/class-spr-admin.php:870
+msgid "Product ID or name"
+msgstr ""
+
+#: includes/class-spr-admin.php:871
+msgid "Check"
+msgstr ""
+
+#: includes/class-spr-admin.php:897
+#: includes/class-spr-admin.php:978
+msgid "Times shown"
+msgstr ""
+
+#: includes/class-spr-admin.php:898
+#: includes/class-spr-admin.php:979
+msgid "Clicks"
+msgstr ""
+
+#. translators: %s: percent
+#: includes/class-spr-admin.php:898
+#, php-format
+msgid "%s%% of views"
+msgstr ""
+
+#. translators: %s: percent
+#: includes/class-spr-admin.php:899
+msgid "Orders from recommendations"
+msgstr ""
+
+#: includes/class-spr-admin.php:900
+msgid "Revenue from recommendations"
+msgstr ""
+
+#: includes/class-spr-admin.php:921
+msgid "No clicks yet. The chart fills in as shoppers use recommendations."
+msgstr ""
+
+#: includes/class-spr-admin.php:925
+msgid "Clicks per day. Days with an order from a recommendation are marked in gold."
+msgstr ""
+
+#. translators: %s: clicks
+#: includes/class-spr-admin.php:927
+#, php-format
+msgid "%s click"
+msgid_plural "%s clicks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: type
+#: includes/class-spr-admin.php:948
+#, php-format
+msgid "Shortcode: %s"
+msgstr ""
+
+#. translators: %s: type
+#: includes/class-spr-admin.php:949
+#, php-format
+msgid "Widget: %s"
+msgstr ""
+
+#: includes/class-spr-admin.php:959
+msgid "Period"
+msgstr ""
+
+#. translators: %s: days
+#: includes/class-spr-admin.php:961
+#, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-spr-admin.php:970
+msgid "By location"
+msgstr ""
+
+#: includes/class-spr-admin.php:972
+msgid "Nothing to compare yet. Each location gets a row once shoppers see it."
+msgstr ""
+
+#: includes/class-spr-admin.php:977
+msgid "Location"
+msgstr ""
+
+#: includes/class-spr-admin.php:980
+msgid "Click rate"
+msgstr ""
+
+#: includes/class-spr-admin.php:981
+msgid "Orders"
+msgstr ""
+
+#: includes/class-spr-admin.php:982
+msgid "Revenue"
+msgstr ""
+
+#: includes/class-spr-admin.php:999
+msgid "An order counts for a location when the shopper clicked a product there in the 30 days before buying it."
+msgstr ""
+
+#: includes/class-spr-admin.php:1011
+msgid "Like the product being viewed. Use on product pages, or set a product ID."
+msgstr ""
+
+#: includes/class-spr-admin.php:1012
+msgid "Often bought with the product being viewed."
+msgstr ""
+
+#: includes/class-spr-admin.php:1013
+msgid "What this visitor looked at recently."
+msgstr ""
+
+#: includes/class-spr-admin.php:1014
+msgid "Picked from this visitor's browsing; best sellers for new visitors. Good for the home page."
+msgstr ""
+
+#: includes/class-spr-admin.php:1015
+msgid "Most viewed this week."
+msgstr ""
+
+#: includes/class-spr-admin.php:1016
+msgid "Based on what is in the cart."
+msgstr ""
+
+#: includes/class-spr-admin.php:1022
+msgid "Add recommendations anywhere"
+msgstr ""
+
+#: includes/class-spr-admin.php:1023
+msgid "Pick the options, copy the shortcode and paste it into a page, a post or a Shortcode block."
+msgstr ""
+
+#: includes/class-spr-admin.php:1026
+msgid "What to show"
+msgstr ""
+
+#: includes/class-spr-admin.php:1035
+msgid "Default title"
+msgstr ""
+
+#: includes/class-spr-admin.php:1037
+msgid "Per row"
+msgstr ""
+
+#: includes/class-spr-admin.php:1039
+msgid "As in settings"
+msgstr ""
+
+#: includes/class-spr-admin.php:1043
+msgid "Product ID (optional)"
+msgstr ""
+
+#: includes/class-spr-admin.php:1046
+msgid "Copy"
+msgstr ""
+
+#: includes/class-spr-admin.php:1053
+msgid "In theme files"
+msgstr ""
+
+#: includes/class-spr-admin.php:1055
+msgid "Change the card markup with yourtheme/smart-product-recommendations/card.php."
+msgstr ""
+
+#: includes/class-spr-admin.php:1059
+msgid "Apps and headless stores"
+msgstr ""
+
+#: includes/class-spr-frontend.php:42
+msgid "Adding…"
+msgstr ""
+
+#. translators: %d: number of products
+#: includes/class-spr-frontend.php:44
+#, php-format
+msgid "%d items added to your cart."
+msgstr ""
+
+#: includes/class-spr-frontend.php:45
+msgid "View cart"
+msgstr ""
+
+#: includes/class-spr-frontend.php:46
+msgid "Some items could not be added. Open the product page to choose options."
+msgstr ""
+
+#: includes/class-spr-frontend.php:47
+msgid "Select at least one item."
+msgstr ""
+
+#: includes/class-spr-renderer.php:80
+msgid "Previous"
+msgstr ""
+
+#: includes/class-spr-renderer.php:81
+msgid "Next"
+msgstr ""
+
+#. translators: %s: product name
+#: includes/class-spr-renderer.php:165
+#, php-format
+msgid "Include %s"
+msgstr ""
+
+#: includes/class-spr-renderer.php:168
+msgid "This item:"
+msgstr ""
+
+#: includes/class-spr-renderer.php:182
+msgid "Total for selected items"
+msgstr ""
+
+#. translators: %d: number of products
+#: includes/class-spr-renderer.php:184
+#: includes/class-spr-renderer.php:185
+#, php-format
+msgid "Add %d items to cart"
+msgstr ""
+
+#: includes/class-spr-renderer.php:184
+msgid "Add to cart"
+msgstr ""
+
+#. translators: %s: discount percent
+#: includes/class-spr-renderer.php:219
+#, php-format
+msgid "%s%% off"
+msgstr ""
+
+#. translators: %s: discount percent
+#: includes/class-spr-renderer.php:220
+msgid "Sale"
+msgstr ""
+
+#: includes/class-spr-settings.php:22
+msgid "Product page — similar products"
+msgstr ""
+
+#: includes/class-spr-settings.php:28
+msgid "Product page — frequently bought together"
+msgstr ""
+
+#: includes/class-spr-settings.php:34
+msgid "Product page — recently viewed"
+msgstr ""
+
+#: includes/class-spr-settings.php:35
+#: includes/class-spr-settings.php:61
+msgid "Recently viewed"
+msgstr ""
+
+#: includes/class-spr-settings.php:40
+msgid "Cart page"
+msgstr ""
+
+#: includes/class-spr-settings.php:41
+#: includes/class-spr-settings.php:64
+msgid "You may also like"
+msgstr ""
+
+#: includes/class-spr-settings.php:46
+msgid "Order received (thank-you) page"
+msgstr ""
+
+#: includes/class-spr-settings.php:47
+#: includes/class-spr-settings.php:62
+msgid "Recommended for you"
+msgstr ""
+
+#: includes/class-spr-settings.php:63
+msgid "Trending now"
+msgstr ""
+
+#: includes/class-spr-widget.php:17
+msgid "Similar, bought together, recently viewed, for you or trending products."
+msgstr ""
+
+#: includes/class-spr-widget.php:61
+msgid "Recommendation type"
+msgstr ""
+
+#: includes/class-spr-widget.php:69
+msgid "Number of products"
+msgstr ""
+
+#: includes/class-spr-widget.php:71
+msgid "Columns"
+msgstr ""
+
+#: smart-product-recommendations.php:64
+msgid "Smart Product Recommendations requires WooCommerce to be installed and active."
+msgstr ""
